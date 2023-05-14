@@ -1,0 +1,25 @@
+
+.imagen {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px; 
+    height: 150px;
+    border: 2px solid;
+}
+
+#right-panel {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #f06e6e;
+     transition: right 0.5s ease-in-out;
+}
+
+.togglePanel  {
+    text-align: center;
+}
+
